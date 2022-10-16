@@ -1,0 +1,57 @@
+{
+  "name": "akm-whatsapp-bot",
+  "version": "5.5.1",
+  "description": "Whatsapp bot that can convert images and videos into sticker, send crypto price updates, stock market updates, search internet for any stickers and send random stickers, download youtube and pinterest videos and do many more things.",
+  "main": "app.js",
+  "scripts": {
+    "dev": "NODE_ENV='development' node -r dotenv/config app.js ",
+    "prod": "NODE_ENV='production' node -r dotenv/config app.js ",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akm-akm/akm-whatsapp-bot.git"
+  },
+  "keywords": [
+    "whatsapp",
+    "baileys",
+    "stickers",
+    "whatsapp-stickers",
+    "bot",
+    "whatsapp bot"
+  ],
+  "author": "ADITYA KUMAR MANDAL",
+  "license": "GNU General Public License v3.0",
+  "bugs": {
+    "url": "https://github.com/akm-akm/akm-whatsapp-bot/issues"
+  },
+  "homepage": "https://github.com/akm-akm/akm-whatsapp-bot#readme",
+  "dependencies": {
+    "@adiwajshing/baileys": "github:adiwajshing/baileys",
+    "@ffmpeg-installer/ffmpeg": "^1.0.20",
+    "any-shell-escape": "^0.1.1",
+    "async-g-i-s": "^1.2.0",
+    "axios": "^0.21.1",
+    "chalk": "^4.1.2",
+    "deepai": "^1.0.17",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "ffmpeg": "0.0.4",
+    "ffmpeg-static": "^4.4.0",
+    "https-proxy-agent": "^5.0.0",
+    "music-metadata": "^7.4.1",
+    "node-cron": "^3.0.0",
+    "pg": "^8.6.0",
+    "pino": "^6.14.0",
+    "pino-pretty": "^4.3.0",
+    "qr-image": "^3.2.0",
+    "qrcode-terminal": "^0.12.0",
+    "request": "^2.88.2",
+    "solenolyrics": "^5.0.0",
+    "twitter": "^1.7.1",
+    "wa-sticker-formatter": "^3.6.0",
+    "webp-converter": "^2.3.3",
+    "ws": "^7.3.1",
+    "ytdl-core": "^4.11.0"
+  }
+}

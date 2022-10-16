@@ -1,0 +1,46 @@
+{
+  "name": "akm-whatsapp-bot",
+  "description": "Whatsapp bot that can convert images and videos into sticker, send crypto price updates, stock market updates, search internet for any stickers and send random stickers, download youtube videos and do many more things.",
+  "repository": "https://github.com/akm-akm/akm-whatsapp-bot",
+  "logo": "https://raw.githubusercontent.com/akm-akm/akm-whatsapp-bot/master/docs/images/akmlogo.png",
+  "keywords": [
+    "whatsapp",
+    "baileys",
+    "stickers",
+    "whatsapp-stickers",
+    "bot",
+    "whatsapp bot"
+  ],
+  "success_url": "/",
+  "addons": [
+    {
+      "plan": "heroku-postgresql"
+    }
+  ],
+  "env": {
+  
+    "OWNER_NUMBER": {
+      "description": "Your whatsapp number with which you will send command to the bot. It must start with the country code without + sign.",
+      "value": ""
+    },
+    "WEBSITE_PASSWORD": {
+      "description": "The password you want to use for the bot website that will be used to login.",
+      "value": "1234"
+    },
+    "COINMARKETCAP_API_KEY": {
+      "description": "The API key of CoinMarketCap for crypto feature.",
+      "value": "",
+      "required": false
+    },
+    "DEEPAI": {
+      "description": "The api key for nsfw detection in images from https://deepai.org/machine-learning-model/nsfw-detector",
+      "value": "",
+      "required": false
+    },
+    "SEARCH_STICKER": {
+      "description": "The api from https://rapidapi.com/microsoft-azure-org-microsoft-cognitive-services/api/bing-image-search1 if you want to use the search sticker (ss) feature.",
+      "value": "",
+      "required": false
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "salutations": ["👋 ```Hey```", "👋 ```Hello```", "👋 ```hi```"],
+  "disabled": "😢 ```Feature down```",
+  "success": "✅ ```Successful```",
+  "noenv": "🛠️ ```Environment variable not set.```",
+  "noapi": "🔑  ```API key not set```",
+  "tag": "🌌 ```Reply to a media.```",
+  "tags": "🌌 ```Reply to a sticker.```",
+  "tagtext": "📑 ```Reply to a text.```",
+  "grouplimit": "🎫 ```Daily group credits exhausted.```",
+  "userlimit": "💳 ```Daily credits exhausted.```",
+  "limit": "💳 ```Daily credit used: ```",
+  "unknowncommand": "🤖 ```command not found```",
+  
+  "error": {
+    "invalid": "🌐 ```Invalid link```",
+    "error": "❎ ```Error```",
+    "intenalError": "❎ ```Internal Error```"
+  },
+
+  "only": {
+    "group": "👩‍👩‍👦‍👦 ```This command can only be used in groups!```",
+    "ownerG": "💎 ```This command can only be used by the group owner!```",
+    "ownerB": "🎩 ```This command can only be used by the bot owner!```",
+    "modB": "👮 ```This command can only be used by the bot moderators!```",
+    "admin": "🛡️ ```This command can only be used by the admins!```",
+    "Badmin": "🤖 ```This command can only be used when the bot is admin!```"
+  },
+
+  "initialSetup": "🤖 *BOT Integrated Successfully!* \n\n❗```Here are the commands only you can run to manage the bot-```\n\n👨‍👨‍👧‍👦 *dgl* : ```Change daily user limit```\n\n👦 *dul* : ```Change daily group limit```\n\n👨‍👨‍👧‍👦 *mgs* : ```Change the minimum participants required for bot to work in group```\n\n🕛 *rst* : ```Reset the daily group and user credit back to 0```\n\n💾 *sql* : ```Perform sql command on the bot databse```\n\n👮‍♀️ *mdr* : ```Add a user as a bot moderator```\n\n❎ *rmdr*: ```Remove a user as a bot moderator```\n\n🟢 *rtrt*: ```Restart the bot server```\n\n🔴 *stp* : ```Shutdown the bot```"
+}
